@@ -1,0 +1,12 @@
+Descarga de SQL Server 2019
+https://www.microsoft.com/es-es/evalcenter/download-sql-server-2019
+
+Descarga de SQL Server 2022
+https://www.microsoft.com/es-es/evalcenter/download-sql-server-2022
+
+Nota: la instalacion basica de SQL Server 2019 y 2022 es similar.
+
+Descarga de Backups de BD (valido hasta 14 de marzo por We Transfer)
+https://we.tl/t-ij7gMm4lLE
+
+
