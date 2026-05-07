@@ -1,0 +1,26 @@
+Clinica_Medica = @#Clinica + Nombre_Clinica + Dirección_Clinica + Teléfono_Clinica + {@#Matricula_Medico + Apellido_Nombre_Medico + Fecha_Ingreso_a_la_Clinica + Codigo_Especialidad + Nombre_Especialidad}
+Nota: Especialidad, es la del médico (no la de la clinica).
+
+1FN
+Clinica_Medica = @#Clinica + Nombre_Clinica + Dirección_Clinica + Teléfono_Clinica
+
+Clinica_Medico = @#Clinica + @#Matricula_Medico + Apellido_Nombre_Medico + Fecha_Ingreso_a_la_Clinica + Codigo_Especialidad + Nombre_Especialidad
+
+
+2FN
+Clinica_Medica = @#Clinica + Nombre_Clinica + Dirección_Clinica + Teléfono_Clinica
+
+Clinica_Medico = @#Clinica + @#Matricula_Medico + Fecha_Ingreso_a_la_Clinica
+
+Medico = @#Matricula_Medico + Apellido_Nombre_Medico + Codigo_Especialidad + Nombre_Especialidad
+
+
+3FN
+Clinica_Medica = @#Clinica + Nombre_Clinica + Dirección_Clinica + Teléfono_Clinica
+
+Clinica_Medico = @#Clinica + @#Matricula_Medico + Fecha_Ingreso_a_la_Clinica
+
+Medico = @#Matricula_Medico + Apellido_Nombre_Medico + #Codigo_Especialidad
+
+Especialidad = @#Codigo_Especialidad + Nombre_Especialidad
+
